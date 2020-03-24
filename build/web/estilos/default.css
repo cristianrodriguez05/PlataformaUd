@@ -1,0 +1,122 @@
+body {
+	background-color:#000000;
+	background:#000000 url('../imagenes/fondo.png') right center;
+	text-align: center;
+}
+
+h1, h3{
+	color:#FFFFFF;
+}
+
+section {
+	float:left;
+	clear:none;
+	background:url('../imagenesBomberman/trasparente.png');
+	border:2px solid;
+	border-color:#ffffff;
+	border-radius:15px;
+	margin:2em 0.5em;
+	padding:0.5em 3em;
+	text-align: center;
+}
+
+canvas {
+	background:url('../imagenes/road.png') no-repeat;
+	color:#ffffff;
+	border:2px solid;
+	border-color:#ffffff;
+	border-radius:15px;
+}
+
+p {
+	color:#003300;
+}
+
+button {
+	margin:0.3em;
+	color:#555555;
+}
+
+#arriba, #abajo, #salto, #sentado, #car_1, #car_2, #mapa, #izquierda_1, #izquierda_2, #derecha_1, #derecha_2 , #mapa_1,#mapa_2,#mapa_3, #mapa_4, #bloque_1, #bloque_2, #bloque_3, #bloque_4{
+	display:none;
+}
+
+#popup {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1001;
+}
+
+.precargadas{
+	display:none;
+}
+
+.botonimagen_1{
+  background-image:url("../imagenesBomberman/miniaturas/miniatura_1.png");
+  background-repeat:no-repeat;
+  height:168px;
+  width:300px;
+  background-position:center;
+}
+
+.botonimagen_2{
+  background-image:url("../imagenesBomberman/miniaturas/miniatura_2.png");
+  background-repeat:no-repeat;
+  height:168px;
+  width:300px;
+  background-position:center;
+}
+
+.botonimagen_3{
+  background-image:url("../imagenesBomberman/miniaturas/miniatura_3.png");
+  background-repeat:no-repeat;
+  height:168px;
+  width:300px;
+  background-position:center;
+}
+
+.botonimagen_4{
+  background-image:url("../imagenesBomberman/miniaturas/miniatura_4.png");
+  background-repeat:no-repeat;
+  height:168px;
+  width:300px;
+  background-position:center;
+}
+
+.content-popup {
+    margin:0px auto;
+    margin-top:120px;
+    position:relative;
+    padding:10px;
+    width:500px;
+    min-height:250px;
+    border-radius:25px;
+    background:url('../imagenesBomberman/trasparente.png');
+    box-shadow: 0 2px 5px #666666;
+}
+
+.content-popup h2 {
+    color:#48484B;
+    border-bottom: 1px solid #48484B;
+    margin-top: 0;
+    padding-bottom: 4px;
+}
+
+.popup-overlay {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    display:none;
+    background-color: #777777;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.close {
+    position: absolute;
+    right: 15px;
+}

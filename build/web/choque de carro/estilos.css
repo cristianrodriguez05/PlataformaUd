@@ -1,0 +1,51 @@
+body {
+	background-color:#000000;
+}
+
+h1, h3{
+	color:#ffffff;
+}
+aside {
+	float: right;
+	clear: none;
+	margin:2em;
+	padding:1em;
+	text-align: center;
+}
+
+ul {
+	color:#ffffff;
+	text-align: left;
+}
+
+section {
+	background-color:#006600;
+	border:2px solid;
+	border-color:#ffffff;
+	border-radius:15px;
+	margin:2em;
+	padding:1em;
+	text-align: center;
+}
+
+canvas {
+	background:url('imagenes/carreteraverdedf.png');
+	color:#ffffff;
+	border:2px solid;
+	border-color:#ffffff;
+	border-radius:15px;
+}
+
+p {
+	padding:0.1em;
+	color:#ffffff;
+}
+
+button {
+	margin:0.3em;
+	color:#006600;
+}
+
+#carro, #carrochocado, #aceite, #cono, #hueco, #retro , #roca {
+	display:none;
+}
