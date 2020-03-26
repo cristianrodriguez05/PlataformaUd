@@ -46,7 +46,7 @@
                 <h1 class = "display-2 mb-4">
                     <p>Juegos</p>
                     <table align="center" border="0">
-                        <tr><td>Asteroids</td><td>La Llorona</td></tr>
+                        <tr><td>Asteroids</td><td>La Llorona</td><td>Trex</td></tr>
                         <tr>
                             <%juego = "Asteroids";%>
                             <%prueba = "registros.jsp" + url + "&juego=" + juego + "";%>
@@ -54,15 +54,21 @@
                                     <%juego = "LaLlorona";%>
                                     <%prueba = "registros.jsp" + url + "&juego=" + juego + "";%>
                             <td><a href=<%=prueba%>><img src="imgMin/llorona.png" height="300" width="300"></a></td>
-                        </tr>
-                        <tr><td>T-rex</td><td>Buscaminas</td></tr>
-                        <tr>
-                            <%juego = "Trex";%>
-                            <%prueba = "registros.jsp" + url + "&juego=" + juego + "";%>
-                            <td><a href=<%=prueba%>><img src="imgMin/Rex.png" height="300" width="300"></a></td>
-                                    <%juego = "Buscaminas";%>
+                                    <%juego = "Trex";%>
                                     <%prueba = "registros.jsp" + url + "&juego=" + juego + "";%>
+                            <td><a href=<%=prueba%>><img src="imgMin/Rex.png" height="300" width="300"></a></td>
+                        </tr>
+                        <tr><td>Buscaminas</td><td>Flappymario</td><td>Break out</td></tr>
+                        <tr>
+                            <%juego = "Buscaminas";%>
+                            <%prueba = "registros.jsp" + url + "&juego=" + juego + "";%>
                             <td><a href=<%=prueba%>><img src="imgMin/Buscaminas.png" height="300" width="300"></a></td>
+                                    <%juego = "Flappymario";%>
+                                    <%prueba = "registros.jsp" + url + "&juego=" + juego + "";%>
+                            <td><a href=<%=prueba%>><img src="imgMin/Flappymario.png" height="300" width="300"></a></td>
+                                    <%juego = "Breakout";%>
+                                    <%prueba = "registros.jsp" + url + "&juego=" + juego + "";%>
+                            <td><a href=<%=prueba%>><img src="imgMin/Breakout.png" height="300" width="300"></a></td>
                         </tr>
                     </table>
                 </h1>

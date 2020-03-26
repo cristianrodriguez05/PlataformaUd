@@ -57,19 +57,23 @@
                 <h1 class = "display-2 mb-4">
                     <p>Juegos</p>
                     <table align="center" border="0">
-                        <tr><td>Asteroids</td><td>La Llorona</td></tr>
+                        <tr><td>Asteroids</td><td>La Llorona</td><td>Trex</td></tr>
                         <tr>
                             <%juego = "Asteroids.jsp" + url;%>
                             <td><a href=<%=juego%>><img src="imgMin/Asteroides.png" height="300" width="300"></a></td>
                                     <%juego = "LaLlorona.jsp" + url;%>
                             <td><a href=<%=juego%>><img src="imgMin/llorona.png" height="300" width="300"></a></td>
-                        </tr>
-                        <tr><td>T-rex</td><td>Busca minas</td></tr>
-                        <tr>
-                            <%juego = "TRex.jsp" + url;%>
+                                    <%juego = "TRex.jsp" + url;%>
                             <td><a href=<%=juego%>><img src="imgMin/Rex.png" height="300" width="300"></a></td>
-                                    <%juego = "BuscaMinas.jsp" + url;%>
+                        </tr>
+                        <tr><td>Buscaminas</td><td>Flppymario</td><td>Break out</td></tr>
+                        <tr>
+                            <%juego = "BuscaMinas.jsp" + url;%>
                             <td><a href=<%=juego%>><img src="imgMin/Buscaminas.png" height="300" width="300"></a></td>
+                                    <%juego = "Flappymario.jsp" + url;%>
+                            <td><a href=<%=juego%>><img src="imgMin/Flappymario.png" height="300" width="300"></a></td>
+                                    <%juego = "Breakout.jsp" + url;%>
+                            <td><a href=<%=juego%>><img src="imgMin/Breakout.png" height="300" width="300"></a></td>
                         </tr>
                     </table>
                 </h1>
