@@ -37,7 +37,9 @@ INSERT INTO `usuarios` (`id`, `nombre`, `apellido`, `usuario`, `pass`) VALUES
 (1, 'Alejandro', 'Daza', 'alejandrodaza', 'clave');
 INSERT INTO `juegos` (`id`, `nombreJuego`, `veces`) VALUES
 (1, 'Asteroids', 0),
-(2, 'LaLlonrona', 0),
+(2, 'LaLlorona', 0),
 (3, 'Trex', 0),
-(4, 'Buscaminas', 0);
+(4, 'Buscaminas', 0),
+(5, 'Flappymario', 0),
+(6, 'Breakout', 0);
 
